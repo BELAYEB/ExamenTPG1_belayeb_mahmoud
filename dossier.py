@@ -5,3 +5,10 @@ if Data :
     print('le max est : 'max(Data))
 else :
     print('dossier vide')
+
+def somme(T):
+    S=0
+    for t in T:
+        S+=t
+        return S
+
